@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.get("/", (req, res)=>{
     try{
-        res.status(200).json({msg: "app is working!"});
+        res.status(200).json({msg: "app is working!!!"});
     }catch(err){
         res.status(500).json({msg: "something wrong with the server"});
     }
